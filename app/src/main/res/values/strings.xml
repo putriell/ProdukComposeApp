@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProdukComposeApp</string>
+    <string name="search_hint">Cari Produk</string>
+    <string name="series_detail">Detail produk:</string>
+    <string name="profil">About Me</string>
+    <string name="produk_detail">Detail</string>
+</resources>
