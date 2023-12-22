@@ -1,13 +1,11 @@
 package com.example.produkcomposeapp.ui.detail
 
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.Divider
 import androidx.compose.material.Icon
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
@@ -24,6 +22,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.produkcomposeapp.R
@@ -32,6 +31,8 @@ import com.example.produkcomposeapp.ui.ViewModelFactory
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import com.example.produkcomposeapp.data.ListProduk
+import com.example.produkcomposeapp.ui.main.MainScreen
+import com.example.produkcomposeapp.ui.theme.ProdukComposeAppTheme
 
 @Composable
 fun DetailScreen (
@@ -73,10 +74,13 @@ fun DetailContent(produk: ListProduk, modifier: Modifier = Modifier) {
                     contentDescription = null,
                     modifier = modifier
                         .fillMaxWidth()
-                        .height(300.dp)
+                        .height(200.dp)
                 )
+            }
 
-                Column(modifier = Modifier.padding(start = 8.dp, end = 8.dp)) {
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Column(modifier = Modifier.padding(start = 8.dp, end = 8.dp)) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween,
@@ -86,13 +90,12 @@ fun DetailContent(produk: ListProduk, modifier: Modifier = Modifier) {
                             text = produk.name,
                             style = MaterialTheme.typography.h6
                         )
-                        Text(
-                            text = produk.description,
-                            style = MaterialTheme.typography.body1,
-                            lineHeight = 24.sp,
-                        )
                     }
-                }
+                Text(
+                    text = produk.description,
+                    style = MaterialTheme.typography.body1,
+                    lineHeight = 24.sp,
+                )
             }
         }
     }
@@ -125,3 +128,18 @@ fun TopBar(
         )
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun DetailScreenPreview() {
+    val produk = ListProduk("1",
+        "Cleansing Pad",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "https://i.pinimg.com/564x/2b/47/85/2b4785c49036f018427146129558c146.jpg"
+    )
+    ProdukComposeAppTheme {
+        DetailContent(produk = produk)
+    }
+}
+
+

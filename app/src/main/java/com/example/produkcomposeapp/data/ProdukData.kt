@@ -36,33 +36,33 @@ object ProdukData {
         ),
         ListProduk(
             "6",
-            "Moisturizer",
+            "Vitamin-C Serum",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "https://i.pinimg.com/564x/f9/66/cd/f966cd97b654fba2d9304c45418b0cf2.jpg"
+            "https://i.pinimg.com/564x/59/32/aa/5932aa8097be2bcc30f35ddce4462e4c.jpg"
         ),
         ListProduk(
             "7",
-            "Moisturizer",
+            "Lip Balm",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "https://i.pinimg.com/564x/f9/66/cd/f966cd97b654fba2d9304c45418b0cf2.jpg"
+            "https://i.pinimg.com/564x/d3/53/c5/d353c50e6df9f0b8b9a1293a83ed3c9e.jpg"
         ),
         ListProduk(
             "8",
-            "Moisturizer",
+            "Clay Mask",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "https://i.pinimg.com/564x/f9/66/cd/f966cd97b654fba2d9304c45418b0cf2.jpg"
+            "https://i.pinimg.com/564x/c4/fe/82/c4fe823238c68375e18c77a4aee8f6bd.jpg"
         ),
         ListProduk(
             "9",
-            "Moisturizer",
+            "Face Mist",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "https://i.pinimg.com/564x/f9/66/cd/f966cd97b654fba2d9304c45418b0cf2.jpg"
+            "https://i.pinimg.com/564x/b7/22/99/b72299b2f1c49ce67d010def8038c01f.jpg"
         ),
         ListProduk(
             "10",
-            "Moisturizer",
+            "Exfoliating",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "https://i.pinimg.com/564x/f9/66/cd/f966cd97b654fba2d9304c45418b0cf2.jpg"
+            "https://i.pinimg.com/564x/28/06/98/28069841e43ad32e10a1331376edaba1.jpg"
         ),
     )
 }
